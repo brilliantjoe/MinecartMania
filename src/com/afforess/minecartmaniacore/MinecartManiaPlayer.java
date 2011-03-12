@@ -64,4 +64,8 @@ public class MinecartManiaPlayer extends MinecartManiaSingleContainer implements
 			 data.put(key, value);
 		 }
 	 }
+
+           public boolean isRedstonePower() {
+             return false;
+         }
 }

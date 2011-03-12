@@ -227,6 +227,7 @@ public class MinecartManiaChest extends MinecartManiaSingleContainer implements 
 	}
 
 	public boolean isRedstonePower() {
+              
 		return redstonePower;
 	}
 	

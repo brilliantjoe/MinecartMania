@@ -68,4 +68,7 @@ public class MinecartManiaDispenser extends MinecartManiaSingleContainer impleme
 	 public Inventory getInventory() {
 			return getDispenser().getInventory();
 		}
+         public boolean isRedstonePower() {
+             return false;
+         }
 }

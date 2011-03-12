@@ -299,4 +299,8 @@ public class MinecartManiaStorageCart extends MinecartManiaMinecart implements M
 		}
 		return true;
 	}
+
+          public boolean isRedstonePower() {
+             return false;
+         }
 }

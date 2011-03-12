@@ -17,7 +17,12 @@ public class MinecartManiaDoubleChest implements MinecartManiaInventory{
 		this.chest1 = left;
 		this.chest2 = right;
 	}
-	
+
+        public boolean isRedstonePower() {
+         
+            return chest1.isRedstonePower() || chest2.isRedstonePower();
+        }
+
 	public boolean equals(Location loc) {
 		if (loc.equals(chest1.getLocation())) {
 			return true;

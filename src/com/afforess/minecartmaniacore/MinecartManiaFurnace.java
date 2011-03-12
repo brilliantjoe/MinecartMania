@@ -68,4 +68,8 @@ public class MinecartManiaFurnace extends MinecartManiaSingleContainer implement
 	 public Inventory getInventory() {
 			return getFurnace().getInventory();
 		}
+
+           public boolean isRedstonePower() {
+             return false;
+         }
 }
